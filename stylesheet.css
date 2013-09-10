@@ -1,20 +1,16 @@
-.span2{
-	background-color: #E3F5D5;
-	border: 3px solid black;
-	opacity: .85;
-    filter: alpha(opacity=50); 
-    -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .85;
-    -moz-opacity: .85;
-    border-radius: 30px;
+html{
+	background: url("images/cat.png");
+	background-repeat: repeat;
+    padding: 100px 100px 100px 100px;
 }
-.span10{
-	background-color: #E3F5D5;
-	border: 3px solid black;
-	opacity: .85;
-    filter: alpha(opacity=50); 
-    -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .85;
-    -moz-opacity: .85;
-    border-radius: 30px;
+div{
+    text-align: center;
+}
+
+.container-fluid{
+    height: 80%;
+    width: 80%;
+    background-color: #cccccc;
+    border: 9px solid black;
+    border-radius: 30px; 
 }
