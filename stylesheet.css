@@ -1,13 +1,29 @@
 html{
 	background: url("images/cat.png");
 	background-repeat: repeat;
-    padding: 100px 100px 100px 100px;
 }
-div{
-    text-align: center;
+body{
+	padding: 0px 60x 0px 40px;
+}
+a{
+	text-decoration: none;
 }
 
-.container-fluid{
+
+.navbar-fixed-top{
+	/*border: 3px solid black;*/
+	display: block;
+	height: 51px;
+	width: 100%;
+	background-color: #cccccc;
+	margin: -10px 10px 30px 0px;
+	color: white;
+	font-size: 33px;
+	font-family: 'Prosto One', cursive;
+}
+
+#mainBody{
+	margin: auto;
     height: 80%;
     width: 80%;
     background-color: #cccccc;
@@ -15,13 +31,21 @@ div{
     border-radius: 30px; 
 }
 
-li{
+.nav{
+	/*visibility: hidden;*/
+}
+
+.nav li{
 	display: inline-block;
-	padding: 30px 30px 0px 30px;
 }
 #name{
 	padding: 0px 0px 0px 5px;
 }
 #imageDiv{
+	padding: 0px 0px 0px 30px;
+}
+
+.span9{
+	text-align: center;
 	padding: 0px 0px 0px 30px;
 }
