@@ -3,49 +3,29 @@ html{
 	background-repeat: repeat;
 }
 body{
-	padding: 0px 60x 0px 40px;
+	padding: 60px 0px 40px 0px;
 }
 a{
 	text-decoration: none;
 }
 
 
-.navbar-fixed-top{
-	/*border: 3px solid black;*/
-	display: block;
-	height: 51px;
-	width: 100%;
-	background-color: #cccccc;
-	margin: -10px 10px 30px 0px;
-	color: white;
-	font-size: 33px;
-	font-family: 'Prosto One', cursive;
+#mainBody{
+	padding: 100px 0px 0px 0px;
+	margin: auto;
+	text-align: center;
 }
 
-#mainBody{
-	margin: auto;
-    height: 80%;
-    width: 80%;
+#info{
     background-color: #cccccc;
     border: 9px solid black;
     border-radius: 30px; 
+	font-family: 'Prosto One', cursive;
 }
 
-.nav{
-	/*visibility: hidden;*/
-}
-
-.nav li{
-	display: inline-block;
-}
-#name{
-	padding: 0px 0px 0px 5px;
-}
-#imageDiv{
-	padding: 0px 0px 0px 30px;
-}
-
-.span9{
-	text-align: center;
-	padding: 0px 0px 0px 30px;
+#theMeat{
+    background-color: #cccccc;
+    border: 9px solid black;
+    border-radius: 30px; 
+	font-family: 'Prosto One', cursive;
 }

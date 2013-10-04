@@ -1,5 +1,5 @@
-$(document).ready(function(){
-	$(".btn").click(function(){
-		$(".nav").collapse('toggle');
-	})
-});
+// $(document).ready(function(){
+// 	$(".btn").click(function(){
+// 		$(".nav").collapse('toggle');
+// 	})
+// });
